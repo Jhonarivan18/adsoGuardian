@@ -46,7 +46,7 @@ module.exports = {
             if (err) {
                 return res.status(501).json({
                     success: false,
-                    message: 'Hubo un error con la eliminacion del registro',
+                    message: 'Hubo un error .con la eliminacion del registro',
                     error: err
                 })
             }
