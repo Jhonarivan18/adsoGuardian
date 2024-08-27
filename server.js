@@ -38,7 +38,7 @@ usersRoutes(app);
 registroRoutes(app);
 
 
-server.listen(3000, '192.168.1.47' || 'localhost', function() {
+server.listen(3000, '192.168.1.5' || 'localhost', function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 });
 

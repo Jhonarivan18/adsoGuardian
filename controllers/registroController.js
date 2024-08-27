@@ -7,7 +7,7 @@ module.exports = {
             if (err) {
                 return res.status(501).json({
                     success: false,
-                    message: 'Hubo un error al listar el registro del dispositivo',
+                    message: 'Hubo un error al listar los registros',
                     error: err
                 });
             }
